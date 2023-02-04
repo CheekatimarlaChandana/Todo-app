@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  color: black;
+background-color: aliceblue; 
+}
+
+#todo-list {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#todo-input {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#add-todo {
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+}
+
+#todo-items {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+  font-family: italic; 
+  font-size: xx-large;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+button {
+  margin: 1px;
+  background-color: yellowgreen;
+  border-radius: 10%;
+  height: 30px;
+  width: 80px;
+  color: white;
+}
+[type="submit"]{
+  background-color: blue;
+}
